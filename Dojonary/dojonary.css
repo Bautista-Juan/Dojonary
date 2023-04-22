@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    /* border: 3px rgb(42, 27, 21) solid; */
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(145, 137, 137);
+    margin: 0px 15px 0px 15px ;
+    padding: 20px;
+}
+
+
+input {
+    border: 3px grey solid;
+    height: 30px; 
+}
+
+.flex-1 button {
+   float: right;
+   padding: 8px;
+   background-color: blue;
+   color: white;
+}
+
+button {
+    border: 3px black solid;
+    box-shadow: 2px 2px black;
+}
+
+h2 {
+   font-size: 35px;
+    font-weight: 500;
+}
+
+.like-btn {
+    margin-top: 10px; 
+    width: 100%;
+    background-color: yellow;
+    padding: 8px;
+}
+
+.noun {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.top-content {
+    display: flex;
+    margin: 15px;
+    gap: 20px;
+    
+}
+
+.def-text {
+    margin-left: 20px;
+}
+
+.word {
+   
+    margin-left: 15px;
+}
+
+.left-side {
+    display: flex;
+    gap: 20px;
+    border: 3px grey solid;
+    padding: 15px;
+    flex: 2;
+}
+
+.right-side {
+    display: inline-block;
+    border: 3px grey solid;
+    padding: 10px;
+    flex: 1;
+}
+
+.defenition {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.def-btn {
+    background-color: greenyellow;
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px;
+}
+
+.bottom-content {
+    display: flex;
+    padding: 15px;
+    border: 3px grey solid;
+    margin: 15px;
+    gap: 20px;
+    max-width: 530px;
+}
+
+

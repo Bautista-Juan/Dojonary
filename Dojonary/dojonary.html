@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dojonary.css">
+    <title>Dojonary</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="nav-bar">
+            <h1 class="flex-1">Dojonary</h1>
+            <input class="flex-2" type="text" placeholder="Search">
+            <div class="flex-1">
+                <button onclick="changeText(this)">Login</button>
+            </div>
+
+        </div>
+
+        <div class="top-content">
+            <div class="left-side">
+                <div class="word">
+                    <h2>ninja</h2>
+                    <p class="noun">noun</p>
+                    <p>Plural: ninjas</p>
+                    <button class="like-btn" onclick="incrementNumber()"><span id="counter">0</span> Likes</button>
+                </div>
+
+                <div class="defenition">
+                    <p class="def-text">A practitioner skilled in the <a href="">Japanese</a> art of <a
+                            href="">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="right-side">
+                <p>Dojonary is defined by You</p>
+                <button class="def-btn" onclick="removeText(this)">Add Definition</button>
+            </div>
+        </div>
+        <div class="bottom-content">
+            <div class="word">
+                <h2>ninja</h2>
+                <p class="noun">noun</p>
+                <p>Plural: ninjas</p>
+                <button class="like-btn" onclick="incrementNumber2()"><span id="counter2">0</span> Likes</button>
+            </div>
+            <div class="defenition">
+                <p class="def-text">
+                    A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
